@@ -15,11 +15,11 @@ import stack.MyStringStack;
 
 public class MyStringStackTest extends TestCase {
 	private String s1, s2;
-	
-	public MyStringStackTest(String name) {
-		MyStringStack stack = new MyStringStack();
+	MyStringStack stack = new MyStringStack();
 		stack.push(s1);
 		assertTrue(stack.isEmpty());
+	public MyStringStackTest(String name) {
+		
 		super(name);
 	}
 	@Before
